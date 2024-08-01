@@ -17,11 +17,11 @@ curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 
 sleep 2
 
-sudo apt-get install -y nodejs
+sudo apt-get install nodejs -y
 
 sleep 2
 
-sudo apt-get install -y npm
+sudo apt-get install npm -y
 
 sleep 2
 
