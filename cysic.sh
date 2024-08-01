@@ -12,6 +12,16 @@ sleep 5
 
 CYSIC_PATH="$HOME/cysic-verifier"
 
+sleep 2
+
+if [ "$(id -u)" != "0" ]; then
+    echo " "
+    echo " "
+    exit 1
+fi
+
+sleep 2
+
 apt update && apt upgrade -y
 apt install curl wget jq make gcc nano -y
 
