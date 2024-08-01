@@ -14,6 +14,9 @@ apt update && apt upgrade -y
 apt install curl wget jq make gcc nano -y
 
 curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+
+sleep2
+
 sudo apt-get install -y nodejs
 
 sleep 2
