@@ -8,6 +8,8 @@ echo -e '\e[35mTelegram Group :\e[35m' @autosultan_group
 echo "====================================================="
 echo -e "\e[0m"
 
+sleep 5
+
 CYSIC_PATH="$HOME/cysic-verifier"
 
 apt update && apt upgrade -y
